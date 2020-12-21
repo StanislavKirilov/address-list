@@ -1,0 +1,36 @@
+.autocomplete-holder {
+  border: 1px solid #ccc;
+  border-radius: 2%;
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.autocomplete-holder div:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.autocomplete-button {
+  background: none;
+  border: none;
+  color: #000;
+  width: 100%;
+  text-align: left;
+}
+
+.form {
+  margin: 2rem 0 1rem 0;
+  border: 2px solid #c1c1c1;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: rgb(246, 248, 248);
+}
+
+.form-label {
+  font-family: Roboto,sans-serif;
+  font-weight: bolder;
+}
+
+.table-dark td, .table-dark th, .table-dark thead th {
+  font-weight: 500;
+}
