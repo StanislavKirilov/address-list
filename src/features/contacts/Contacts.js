@@ -5,6 +5,8 @@ import Button from 'react-bootstrap/Button';
 
 import EditContact from './EditContact.js';
 
+import './Contacts.css';
+
 import {
   remove,
   contactsList,
@@ -76,7 +78,7 @@ import {
                 <td>{item.city}</td>
                 <td>{item.county}</td>
                 <td>{item.postcode}</td>
-                <td>
+                <td className="button-holder">
                   <Button variant="outline-light" onClick={(e) => { onEdit(e, item) } }>Edit</Button>{' '}
                   <Button onClick={(e) => { onDelete(e, item) }} variant="outline-danger">Delete</Button>{' '}
                 </td>

@@ -34,3 +34,8 @@
 .table-dark td, .table-dark th, .table-dark thead th {
   font-weight: 500;
 }
+
+.button-holder {
+  display: flex;
+  justify-content: space-around;
+}
