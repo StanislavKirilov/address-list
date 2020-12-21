@@ -1,6 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Address list from Stanislav Kirilov
 
-## Available Scripts
+For the utilisation of the app I have used React with Redux, so that we can manage the state in single page application (SPA).
+
+## Bugs found
+
+* On commit I have noticed that once you click an address through the postcode autocomplete and then you pick a native autocomplete from the browser we are losing some of the state values.
+
+### Available Scripts
 
 In the project directory, you can run:
 
